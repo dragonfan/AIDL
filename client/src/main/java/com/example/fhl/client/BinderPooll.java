@@ -39,6 +39,7 @@ public class BinderPooll {
         return mBinderPooll;
     }
 
+    //通过该方法查找对应模块的ibinder
     public IBinder queryIBinder(int code){
         IBinder iBinder = null;
         if (mIBinderPooll != null) {

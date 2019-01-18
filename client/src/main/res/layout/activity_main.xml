@@ -8,4 +8,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="绑定"/>
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试1"/>
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试2"/>
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试3"/>
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试4"/>
 </LinearLayout>

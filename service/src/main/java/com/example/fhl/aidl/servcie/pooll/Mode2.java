@@ -1,8 +1,7 @@
-package com.example.fhl.aidl.servcie.easy;
+package com.example.fhl.aidl.servcie.pooll;
 
 import android.os.RemoteException;
 
-import com.example.fhl.aidl.IModel1;
 import com.example.fhl.aidl.IModel2;
 
 /**

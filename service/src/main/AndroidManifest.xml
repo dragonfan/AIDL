@@ -18,13 +18,22 @@
         </activity>
 
         <service
-            android:name=".servcie.easy.MyService"
+            android:name=".servcie.pooll.MyService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.example.fhl.aidl.servcie.easy.MyService"/>
+                <action android:name="com.example.fhl.aidl.servcie.easy.MyService" />
             </intent-filter>
         </service>
+        <service
+            android:name=".servcie.inouts.InoutService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.fhl.aidl.servcie.inouts.InoutService" />
+            </intent-filter>
+        </service>
+        <service android:name=".servcie.remotecallbacklist.RemoteCallBackListService" />
     </application>
 
 </manifest>

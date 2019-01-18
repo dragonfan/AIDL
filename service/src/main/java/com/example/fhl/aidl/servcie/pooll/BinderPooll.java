@@ -1,4 +1,4 @@
-package com.example.fhl.aidl.servcie.easy;
+package com.example.fhl.aidl.servcie.pooll;
 
 import android.os.IBinder;
 import android.os.RemoteException;
@@ -17,7 +17,7 @@ public class BinderPooll extends IBinderPooll.Stub{
     @Override
     public IBinder queryBinder(int code) throws RemoteException {
         IBinder iBinder = null;
-        switch (code){
+        switch (code){  //根据客户端传进来的code返回对应的ibinder
             case MODEL_1:
                 iBinder = new Mode1();
                 break;
